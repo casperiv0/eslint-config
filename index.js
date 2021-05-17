@@ -28,7 +28,6 @@ module.exports = {
     "new-cap": ["warn", { newIsCap: true }],
     "jsx-quotes": ["error", "prefer-double"],
     "func-call-spacing": ["error", "never"],
-    "no-extra-parens": ["error", { ignoreJSX: "all" }],
     "no-promise-executor-return": ["error"],
     "no-template-curly-in-string": ["error"],
     "no-unsafe-optional-chaining": ["error"],
