@@ -4,8 +4,8 @@
 
 ### Packages
 
-- [`eslint-config`](#eslint-config): the base config
-- [`eslint-config-react`](#eslint-config-react): the base config
+- [`eslint-config`][config_url]: the base config
+- [`eslint-config-react`][react_url]: the base config
 
 #### eslint-config
 
@@ -40,3 +40,6 @@ Use `extends` in your ESLint config
 ## License
 
 [Dev-CasperTheGhost MIT](./LICENSE)
+
+[config_url]: https://github.com/Dev-CasperTheGhost/eslint-config/tree/main/packages/eslint-config
+[react_url]: https://github.com/Dev-CasperTheGhost/eslint-config/tree/main/packages/eslint-config-react
