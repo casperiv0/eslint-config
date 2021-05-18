@@ -8,8 +8,8 @@ module.exports = {
       jsx: true,
     },
   },
-  extends: ["plugin:react/recommended", "plugin:react-hooks/recommended", "plugin:jsx-a11y/recommended"],
-  plugins: ["react", "jsx-a11y"],
+  extends: ["plugin:react/recommended", "plugin:react-hooks/recommended"],
+  plugins: ["react"],
   rules: {
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
@@ -23,20 +23,21 @@ module.exports = {
     "react/require-render-return": "error",
     "react/style-prop-object": "warn",
     "react/jsx-curly-spacing": ["error", { when: "never" }],
-    "react/jsx-boolean-value": ["error", "always"],
+    "react/jsx-boolean-value": ["error", "never"],
     "react/jsx-closing-bracket-location": "error",
     "react/no-string-refs": "error",
     "react/self-closing-comp": "error",
     "react/require-render-return": "error",
     "react/prefer-stateless-function": "error",
+    "react/no-typos": "error",
+    "react/no-unused-state": "error",
+    "react/no-unused-prop-types": "error",
+    "react/jsx-no-script-url": "error",
+    "react/jsx-curly-spacing": ["error", { when: "never", children: true }],
 
     "react/prop-types": "off",
     "react/display-name": "off",
     "react/react-in-jsx-scope": "off",
-
-    // jsx-a11y
-    "jsx-a11y/alt-text": "error",
-    "jsx-a11y/no-onchange": "off",
   },
   settings: {
     react: {

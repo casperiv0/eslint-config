@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.0.5
+
+- Add support for `@casper124578/eslint-config-react`
+
 ## 0.0.4
 
 - Add `no-new-object`
