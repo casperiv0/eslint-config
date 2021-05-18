@@ -1,0 +1,11 @@
+
+version: 2
+updates:
+  - package-ecosystem: "npm" # See documentation for possible values
+    directory: "/packages/eslint-config" # Location of package manifests
+    schedule:
+      interval: "monthly"
+  - package-ecosystem: "npm" # See documentation for possible values
+    directory: "/packages/eslint-config-react" # Location of package manifests
+    schedule:
+      interval: "monthly"
