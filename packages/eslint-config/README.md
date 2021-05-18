@@ -18,4 +18,4 @@ Use `extends` in your ESLint config
 
 ## License
 
-[Dev-CasperTheGhost MIT](../LICENSE)
+[Dev-CasperTheGhost MIT](../../LICENSE)
