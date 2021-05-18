@@ -1,4 +1,4 @@
-# eslint-config-react
+# [eslint-config-react](https://npm.im/@casper124578/eslint-config-react)
 
 ## Install
 

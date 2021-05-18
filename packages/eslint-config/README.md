@@ -1,4 +1,4 @@
-# eslint-config
+# [eslint-config](https://npm.im/@casper124578/eslint-config)
 
 ## Install
 

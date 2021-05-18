@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.0.6
+
+- Add TypeScript rules
+- Add [`eslint-plugin-json`](https://github.com/azeemba/eslint-plugin-json)
+- Add [`eslint-plugin-promise`](https://github.com/xjamundx/eslint-plugin-promise)
+
 ## 0.0.5
 
 - Add support for `@casper124578/eslint-config-react`
