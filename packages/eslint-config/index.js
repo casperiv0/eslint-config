@@ -76,5 +76,16 @@ module.exports = {
         "no-undef": "off",
       },
     },
+    {
+      files: ["**/*.ts?(x)"],
+      parser: "@typescript-eslint/parser",
+      parserOptions: {
+        sourceType: "module",
+        ecmaVersion: 2021,
+        ecmaFeatures: {
+          jsx: true,
+        },
+      },
+    },
   ],
 };

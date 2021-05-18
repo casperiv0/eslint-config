@@ -1,29 +1,39 @@
 {
   "name": "@casper124578/eslint-config",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "My ESLint config. Feel free to use :)",
   "main": "index.js",
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Dev-CasperTheGhost/eslint-config.git"
   },
-  "keywords": [],
+  "keywords": [
+    "eslint-config",
+    "eslint-react"
+  ],
   "author": {
     "name": "Dev-CasperTheGhost",
     "url": "https://caspertheghost.me"
   },
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Dev-CasperTheGhost/eslint-config/issues"
   },
-  "files": [
-    "index.js"
-  ],
   "homepage": "https://github.com/Dev-CasperTheGhost/eslint-config#readme",
-  "devDependencies": {
+  "dependencies": {
+    "@typescript-eslint/parser": "^4.20.0",
     "eslint": "^7.26.0"
   },
   "peerDependencies": {
-    "eslint": ">=7.26"
+    "eslint": ">=7.26",
+    "typescript": ">=4.2.4"
+  },
+  "peerDependenciesMeta": {
+    "typescript": {
+      "optional": true
+    }
   }
 }
