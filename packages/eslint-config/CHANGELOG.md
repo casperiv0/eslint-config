@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.0.7
+
+- Remove custom promise rules
+
 ## 0.0.6
 
 - Add TypeScript rules

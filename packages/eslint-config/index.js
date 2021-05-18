@@ -69,10 +69,6 @@ const defaultRules = {
   "prefer-const": "error",
   "prefer-rest-params": "error",
   "rest-spread-spacing": ["error", "never"],
-
-  // promise
-  "prefer-await-to-then": "error",
-  "prefer-await-to-callbacks": "error",
 };
 
 module.exports = {
