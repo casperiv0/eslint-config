@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.0.8
+
+- Disable `@typescript-eslint/explicit-module-boundary-types`
+- Disable `@typescript-eslint/no-explicit-any`
+- Disable `@typescript-eslint/no-namespace`
+- Disable `@typescript-eslint/no-non-null-assertion`
+- Disable `@typescript-eslint/no-var-requires`
+- Disable `@typescript-eslint/no-non-null-asserted-optional-chain`
+
 ## 0.0.7
 
 - Remove custom promise rules

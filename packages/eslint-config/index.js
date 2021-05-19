@@ -101,6 +101,13 @@ module.exports = {
         // typescript rules
         "no-undef": "off",
         "no-unused-vars": "off",
+
+        "@typescript-eslint/explicit-module-boundary-types": "off",
+        "@typescript-eslint/no-explicit-any": "off",
+        "@typescript-eslint/no-namespace": "off",
+        "@typescript-eslint/no-non-null-assertion": "off",
+        "@typescript-eslint/no-var-requires": "off",
+        "@typescript-eslint/no-non-null-asserted-optional-chain": "off",
       },
     },
   ],
