@@ -5,7 +5,7 @@
 ### Packages
 
 - [`eslint-config`][config_url]: the base config
-- [`eslint-config-react`][react_url]: the base config
+- [`eslint-config-react`][react_url]: the react config
 
 #### eslint-config
 
