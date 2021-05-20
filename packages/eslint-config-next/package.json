@@ -1,5 +1,5 @@
 {
-  "name": "@casper124578/eslint-config-react",
+  "name": "@casper124578/eslint-config-next",
   "version": "0.0.1",
   "description": "My ESLint config for ESLint. Feel free to use :)",
   "main": "index.js",
