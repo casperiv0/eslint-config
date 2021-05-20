@@ -3,7 +3,7 @@
 ## Install
 
 ```bash
-npm install @casper124578/eslint-config @casper124578/eslint-config-react
+npm install -D @casper124578/eslint-config @casper124578/eslint-config-react
 ```
 
 ## Usage
@@ -15,6 +15,11 @@ Use `extends` in your ESLint config
   "extends": ["@casper124578/eslint-config", "@casper124578/eslint-config-react"]
 }
 ```
+
+## Included plugins
+
+- [`eslint-plugin-react-hooks`](https://www.npmjs.com/package/eslint-plugin-react-hooks)
+- [`eslint-plugin-react`](https://www.npmjs.com/package/eslint-plugin-react)
 
 ## License
 

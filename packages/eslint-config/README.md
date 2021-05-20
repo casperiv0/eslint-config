@@ -3,7 +3,7 @@
 ## Install
 
 ```bash
-npm install @casper124578/eslint-config
+npm install -D @casper124578/eslint-config
 ```
 
 ## Usage
@@ -15,6 +15,11 @@ Use `extends` in your ESLint config
   "extends": "@casper124578/eslint-config"
 }
 ```
+
+## Included plugins
+
+- [`eslint-plugin-promise`](https://www.npmjs.com/package/eslint-plugin-promise)
+- [`eslint-plugin-json`](https://www.npmjs.com/package/eslint-plugin-json)
 
 ## License
 

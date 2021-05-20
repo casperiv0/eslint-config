@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.0.9
+
+- Update README.md
+- Release [`@casper124578/eslint-config-next`](https://www.npmjs.com/package/@casper124578/eslint-config-next)
+
 ## 0.0.8
 
 - Disable `@typescript-eslint/explicit-module-boundary-types`

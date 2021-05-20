@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.0.3
+
+- Update README.md
+- Release [`@casper124578/eslint-config-next`](https://www.npmjs.com/package/@casper124578/eslint-config-next)
+
 ## 0.0.2
 
 - Initial version
