@@ -1,7 +1,7 @@
 "use strict";
 
-const defaultPlugins = ["json", "promise"];
-const defaultExtends = ["eslint:recommended", "plugin:promise/recommended", "plugin:json/recommended"];
+const defaultPlugins = ["json", "promise", "prettier"];
+const defaultExtends = ["eslint:recommended", "plugin:promise/recommended", "plugin:json/recommended", "prettier"];
 
 const defaultRules = {
   curly: ["error", "multi-line"],
@@ -55,6 +55,12 @@ const defaultRules = {
   "spaced-comment": ["error", "always"],
   "padded-blocks": ["error", "never"],
   "space-in-parens": ["error", "never"],
+  "prettier/prettier": [
+    "error",
+    {
+      endOfLine: "auto",
+    },
+  ],
 
   // turned off bc I mostly use TypeScript
   "no-unused-vars": "off",

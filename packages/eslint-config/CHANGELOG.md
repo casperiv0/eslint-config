@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.0.10
+
+- Add `prettier`
+- Update dependencies
+
 ## 0.0.9
 
 - Update README.md
