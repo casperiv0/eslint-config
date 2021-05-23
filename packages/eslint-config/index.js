@@ -90,10 +90,10 @@ module.exports = {
     {
       files: ["**/*.ts?(x)"],
       parser: "@typescript-eslint/parser",
-      warnOnUnsupportedTypeScriptVersion: true,
       parserOptions: {
         sourceType: "module",
         ecmaVersion: 2021,
+        warnOnUnsupportedTypeScriptVersion: true,
         ecmaFeatures: {
           jsx: true,
         },
