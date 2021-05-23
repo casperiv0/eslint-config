@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.0.4
+
+- Add `react/jsx-no-comment-textnodes`
+- Add `react/jsx-no-undef`
+- Add `react/no-render-return-value`
+- Add `react/no-unsafe`
+
 ## 0.0.3
 
 - Update README.md

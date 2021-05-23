@@ -59,6 +59,11 @@ const defaultRules = {
     "error",
     {
       endOfLine: "auto",
+      semi: true,
+      trailingComma: "all",
+      singleQuote: false,
+      printWidth: 100,
+      tabWidth: 2,
     },
   ],
 
@@ -83,15 +88,9 @@ module.exports = {
   rules: defaultRules,
   overrides: [
     {
-      // react stuff
-      files: ["**/*.tsx"],
-      rules: {
-        "no-undef": "off",
-      },
-    },
-    {
       files: ["**/*.ts?(x)"],
       parser: "@typescript-eslint/parser",
+      warnOnUnsupportedTypeScriptVersion: true,
       parserOptions: {
         sourceType: "module",
         ecmaVersion: 2021,
@@ -108,6 +107,17 @@ module.exports = {
         "no-undef": "off",
         "no-unused-vars": "off",
 
+        "@typescript-eslint/no-unused-vars": [
+          "error",
+          {
+            args: "none",
+          },
+        ],
+
+        "@typescript-eslint/no-array-constructor": "error",
+        "no-array-constructor": "off",
+        "no-useless-constructor": "off",
+        "@typescript-eslint/no-useless-constructor": "error",
         "@typescript-eslint/explicit-module-boundary-types": "off",
         "@typescript-eslint/no-explicit-any": "off",
         "@typescript-eslint/no-namespace": "off",

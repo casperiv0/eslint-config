@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.0.11
+
+- Directly add prettier config to eslint config
+- Add `@typescript-eslint/no-unused-vars`
+- Add `@typescript-eslint/no-array-constructor`
+- Add `@typescript-eslint/no-useless-constructor`
+
 ## 0.0.10
 
 - Add `prettier`

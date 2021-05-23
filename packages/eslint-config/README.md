@@ -22,20 +22,6 @@ Use `extends` in your ESLint config
 - [`eslint-plugin-json`](https://www.npmjs.com/package/eslint-plugin-json)
 - [`prettier`](https://www.npmjs.com/package/prettier)
 
-## Prettier config
-
-Add in your `package.json`
-
-```json
- "prettier": {
-    "semi": true,
-    "trailingComma": "all",
-    "singleQuote": false,
-    "printWidth": 100,
-    "tabWidth": 2
-  }
-```
-
 ## License
 
 [Dev-CasperTheGhost MIT](../../LICENSE)
