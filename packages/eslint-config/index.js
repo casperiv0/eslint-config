@@ -55,6 +55,7 @@ const defaultRules = {
   "spaced-comment": ["error", "always"],
   "padded-blocks": ["error", "never"],
   "space-in-parens": ["error", "never"],
+  "no-unused-vars": "error",
   "prettier/prettier": [
     "error",
     {
@@ -67,9 +68,6 @@ const defaultRules = {
     },
   ],
 
-  // turned off bc I mostly use TypeScript
-  "no-unused-vars": "off",
-
   "capitalized-comments": ["error", "never"],
 
   "constructor-super": "error",
@@ -80,6 +78,10 @@ const defaultRules = {
   "prefer-const": "error",
   "prefer-rest-params": "error",
   "rest-spread-spacing": ["error", "never"],
+  "no-lone-blocks": "error",
+  yoda: "error",
+  "no-unreachable-loop": "error",
+  "no-useless-backreference": "error",
 };
 
 module.exports = {

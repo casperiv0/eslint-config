@@ -1,5 +1,17 @@
 # Changelog
 
+## 0.0.13
+
+- Bump dependencies
+- Add `no-lone-blocks`
+- Add `yoda`
+- Add `no-unreachable-loop`
+- Add `no-useless-backreference`
+
+## 0.0.12
+
+N/A
+
 ## 0.0.11
 
 - Directly add prettier config to eslint config
