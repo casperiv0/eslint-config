@@ -1,6 +1,6 @@
 {
   "name": "@casper124578/eslint-config-react",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "My ESLint config. Feel free to use :)",
   "main": "index.js",
   "license": "MIT",
@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/Dev-CasperTheGhost/eslint-config#readme",
   "devDependencies": {
-    "eslint": ">=7.27"
+    "eslint": "7.32.0"
   },
   "peerDependencies": {
     "eslint": ">=7.26"
