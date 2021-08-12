@@ -9,7 +9,7 @@ module.exports = {
     },
   },
   extends: ["plugin:react/recommended", "plugin:react-hooks/recommended"],
-  plugins: ["react"],
+  plugins: ["react", "jsx-a11y"],
   rules: {
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",

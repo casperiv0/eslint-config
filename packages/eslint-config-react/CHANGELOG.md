@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.1
+
+- Fix: add `jsx-a11y` to plugins
+
 ## 0.1.0
 
 - Add: `jsx-a11y/aria-props`
