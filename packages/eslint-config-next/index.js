@@ -12,6 +12,8 @@ module.exports = {
     "@next/next/no-document-import-in-page": "error",
     "@next/next/no-head-import-in-document": "error",
     "@next/next/no-title-in-document-head": "error",
+    "@next/next/no-duplicate-head": "error",
+    "@next/next/no-typos": "error",
 
     "@next/next/no-img-element": "warn",
 

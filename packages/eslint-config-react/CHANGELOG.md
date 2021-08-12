@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.0
+
+- Add: `jsx-a11y/aria-props`
+- Add `jsx-a11y/aria-proptypes`
+- Add `jsx-a11y/aria-unsupported-elements`
+- Add `jsx-a11y/role-has-required-aria-props`
+- Add `jsx-a11y/role-supports-aria-props`
+
 ## 0.0.6
 
 - Bump dependencies

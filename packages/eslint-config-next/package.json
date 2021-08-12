@@ -1,6 +1,6 @@
 {
   "name": "@casper124578/eslint-config-next",
-  "version": "0.0.5",
+  "version": "0.1.0",
   "description": "My ESLint config for ESLint. Feel free to use :)",
   "main": "index.js",
   "license": "MIT",
@@ -30,6 +30,6 @@
     "eslint": ">=7.26"
   },
   "dependencies": {
-    "eslint-config-next": "^11.0.1"
+    "eslint-config-next": "^11.1.0"
   }
 }

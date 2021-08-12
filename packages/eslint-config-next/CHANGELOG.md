@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.0
+
+- Add: `@next/next/no-duplicate-head`
+- Add: `@next/next/no-typos`
+
 ## 0.0.5
 
 - Bump dependencies
