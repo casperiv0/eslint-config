@@ -1,6 +1,6 @@
 {
   "name": "@casper124578/eslint-config-react",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "My ESLint config. Feel free to use :)",
   "main": "index.js",
   "license": "MIT",
@@ -30,7 +30,7 @@
     "eslint": ">=7.26"
   },
   "dependencies": {
-    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-react": "^7.25.1",
     "eslint-plugin-react-hooks": "^4.2.0",
     "eslint-plugin-jsx-a11y": "^6.4.1"
   }
