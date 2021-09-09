@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.0
+
+- Bump prettier to `2.4`
+
 ## 0.0.17
 
 - Bump dependencies
