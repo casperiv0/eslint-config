@@ -1,5 +1,8 @@
 # Changelog
 
+## 2.0.0-beta
+
+- Support ESLint v8
 
 ## 0.1.2
 

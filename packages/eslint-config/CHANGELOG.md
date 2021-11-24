@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.0.0-beta
+
+- Support ESLint v8
+
 ## 1.0.0
 
 - Bump prettier to `2.4`
