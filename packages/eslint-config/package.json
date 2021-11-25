@@ -1,6 +1,6 @@
 {
   "name": "@casper124578/eslint-config",
-  "version": "2.0.0-beta",
+  "version": "2.1.0",
   "description": "My ESLint config. Feel free to use :)",
   "main": "index.js",
   "license": "MIT",
@@ -31,7 +31,7 @@
     "eslint-plugin-json": "^3.1.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-promise": "^5.1.1",
-    "prettier": "^2.4.1"
+    "prettier": "^2.5.0"
   },
   "peerDependencies": {
     "eslint": ">=8",

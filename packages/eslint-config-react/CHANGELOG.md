@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.1.0
+
+- Support ESLint v8
+- Support Pretter 2.5
+
 ## 2.0.0-beta
 
 - Support ESLint v8
