@@ -1,5 +1,13 @@
 # Changelog
 
+## 2.3.0
+
+- Bump dependencies
+
+## 2.2.0
+
+- Bump dependencies
+
 ## 2.1.0
 
 - Support ESLint v8
