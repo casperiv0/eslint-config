@@ -1,7 +1,12 @@
 "use strict";
 
 const defaultPlugins = ["json", "promise", "prettier"];
-const defaultExtends = ["eslint:recommended", "plugin:promise/recommended", "plugin:json/recommended", "prettier"];
+const defaultExtends = [
+  "eslint:recommended",
+  "plugin:promise/recommended",
+  "plugin:json/recommended",
+  "prettier",
+];
 
 const defaultRules = {
   curly: ["error", "multi-line"],
@@ -46,7 +51,10 @@ const defaultRules = {
   "prefer-template": "error",
   "prefer-arrow-callback": "error",
   "no-useless-concat": "error",
-  "space-before-function-paren": ["error", { anonymous: "always", named: "never", asyncArrow: "always" }],
+  "space-before-function-paren": [
+    "error",
+    { anonymous: "always", named: "never", asyncArrow: "always" },
+  ],
   "space-before-blocks": ["error", "always"],
   "keyword-spacing": ["error", { before: true, after: true }],
   "no-useless-constructor": "error",
@@ -108,6 +116,8 @@ module.exports = {
         // typescript rules
         "no-undef": "off",
         "no-unused-vars": "off",
+        "@typescript-eslint/consistent-type-imports": "error",
+        "no-duplicate-imports": "off",
 
         "@typescript-eslint/no-unused-vars": [
           "error",

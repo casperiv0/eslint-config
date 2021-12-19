@@ -14,6 +14,9 @@ module.exports = {
     "@next/next/no-title-in-document-head": "error",
     "@next/next/no-duplicate-head": "error",
     "@next/next/no-typos": "error",
+    "@next/next/inline-script-id": "error",
+    "@next/next/next-script-for-ga": "error",
+    "@next/next/next-script-for-ga": "error",
 
     "@next/next/no-img-element": "warn",
 

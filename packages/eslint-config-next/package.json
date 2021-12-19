@@ -1,6 +1,6 @@
 {
   "name": "@casper124578/eslint-config-next",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "My ESLint config for ESLint. Feel free to use :)",
   "main": "index.js",
   "license": "MIT",
