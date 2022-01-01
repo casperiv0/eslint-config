@@ -116,8 +116,6 @@ module.exports = {
         // typescript rules
         "no-undef": "off",
         "no-unused-vars": "off",
-        "@typescript-eslint/consistent-type-imports": "error",
-        "no-duplicate-imports": "off",
 
         "@typescript-eslint/no-unused-vars": [
           "error",
