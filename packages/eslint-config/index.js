@@ -116,6 +116,7 @@ module.exports = {
         // typescript rules
         "no-undef": "off",
         "no-unused-vars": "off",
+        "@typescript-eslint/ban-types": "off",
 
         "@typescript-eslint/no-unused-vars": [
           "error",
@@ -134,6 +135,13 @@ module.exports = {
         "@typescript-eslint/no-non-null-assertion": "off",
         "@typescript-eslint/no-var-requires": "off",
         "@typescript-eslint/no-non-null-asserted-optional-chain": "off",
+        "@typescript-eslint/no-extra-non-null-assertion": "error",
+        "@typescript-eslint/no-floating-promises": "error",
+        "@typescript-eslint/no-non-null-asserted-optional-chain": "error",
+        "@typescript-eslint/no-this-alias": "error",
+        "@typescript-eslint/no-unnecessary-type-constraint": "error",
+        "@typescript-eslint/no-var-requires": "error",
+        "@typescript-eslint/prefer-as-const": "error",
       },
     },
   ],

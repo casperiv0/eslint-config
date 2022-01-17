@@ -1,5 +1,16 @@
 # Changelog
 
+## 2.4.0
+
+- add `@typescript-eslint/no-extra-non-null-assertion`
+- add `@typescript-eslint/no-floating-promises`
+- add `@typescript-eslint/no-non-null-asserted-optional-chain`
+- add `@typescript-eslint/no-this-alias`
+- add `@typescript-eslint/no-unnecessary-type-constraint`
+- add `@typescript-eslint/no-var-requires`
+- add `@typescript-eslint/prefer-as-const`
+- set `@typescript-eslint/ban-types` to `off`
+
 ## 2.3.0
 
 - Bump dependencies
