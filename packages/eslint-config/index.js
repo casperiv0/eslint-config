@@ -22,6 +22,7 @@ const defaultRules = {
   "no-return-await": "error",
   "no-useless-return": "error",
   "no-undef": "error",
+  "no-with": "error",
   semi: "error",
   quotes: ["error", "double", { allowTemplateLiterals: false }],
   "quote-props": ["error", "as-needed"],
@@ -97,6 +98,7 @@ module.exports = {
   extends: defaultExtends,
   plugins: defaultPlugins,
   rules: defaultRules,
+  ignorePatterns: ["dist", ".next", "node_modules"],
   overrides: [
     {
       files: ["**/*.ts?(x)"],
@@ -127,11 +129,8 @@ module.exports = {
         "@typescript-eslint/no-explicit-any": "off",
         "@typescript-eslint/no-namespace": "off",
         "@typescript-eslint/no-non-null-assertion": "off",
-        "@typescript-eslint/no-var-requires": "off",
         "@typescript-eslint/no-extra-non-null-assertion": "error",
-        "@typescript-eslint/no-floating-promises": "error",
         "@typescript-eslint/no-non-null-asserted-optional-chain": "error",
-        "@typescript-eslint/no-this-alias": "error",
         "@typescript-eslint/no-unnecessary-type-constraint": "error",
         "@typescript-eslint/no-var-requires": "error",
         "@typescript-eslint/prefer-as-const": "error",
@@ -149,6 +148,14 @@ module.exports = {
         "@typescript-eslint/array-type": "error",
         "@typescript-eslint/unified-signatures": "error",
         "@typescript-eslint/adjacent-overload-signatures": "error",
+        "@typescript-eslint/consistent-type-imports": [
+          "error",
+          { prefer: "type-imports", disallowTypeAnnotations: false },
+        ],
+        "@typescript-eslint/no-use-before-define": [
+          "error",
+          { functions: false, classes: false, variables: true },
+        ],
 
         // unicorn
         "unicorn/error-message": "error",
