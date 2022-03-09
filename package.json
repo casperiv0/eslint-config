@@ -11,8 +11,7 @@
   },
   "private": true,
   "scripts": {
-    "lint": "npx eslint --ext .js,.json,.vue,.md .",
-    "release": "lerna publish --dist-tag beta"
+    "release": "lerna publish"
   },
   "devDependencies": {
     "eslint": "^8.10.0",
