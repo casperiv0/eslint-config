@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.0.0
+
+- TBA
+
 ## 2.4.0
 
 - add `@typescript-eslint/no-extra-non-null-assertion`

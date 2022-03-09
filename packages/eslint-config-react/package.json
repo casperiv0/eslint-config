@@ -1,37 +1,31 @@
 {
   "name": "@casper124578/eslint-config-react",
-  "version": "2.2.1",
-  "description": "My ESLint config. Feel free to use :)",
-  "main": "index.js",
+  "version": "3.0.0-beta.0",
   "license": "MIT",
-  "files": [
-    "index.js"
-  ],
+  "main": "index.js",
+  "author": {
+    "name": "Dev-CasperTheGhost",
+    "url": "https://www.caspertheghost.me"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Dev-CasperTheGhost/eslint-config.git"
   },
-  "keywords": [
-    "eslint-config",
-    "eslint-react"
+  "files": [
+    "index.js"
   ],
-  "author": {
-    "name": "Dev-CasperTheGhost",
-    "url": "https://caspertheghost.me"
-  },
-  "bugs": {
-    "url": "https://github.com/Dev-CasperTheGhost/eslint-config/issues"
-  },
-  "homepage": "https://github.com/Dev-CasperTheGhost/eslint-config#readme",
-  "devDependencies": {
-    "eslint": "8.6.0"
-  },
   "peerDependencies": {
-    "eslint": ">=8"
+    "eslint": ">=7.4.0"
   },
   "dependencies": {
+    "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-react": "^7.28.0",
-    "eslint-plugin-react-hooks": "^4.3.0",
-    "eslint-plugin-jsx-a11y": "^6.5.1"
+    "eslint-plugin-react-hooks": "^4.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.10.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

@@ -1,45 +1,30 @@
 {
   "name": "@casper124578/eslint-config",
-  "version": "2.4.0",
-  "description": "My ESLint config. Feel free to use :)",
-  "main": "index.js",
+  "version": "3.0.0-beta.0",
   "license": "MIT",
+  "main": "index.js",
+  "author": {
+    "name": "Dev-CasperTheGhost",
+    "url": "https://www.caspertheghost.me"
+  },
   "files": [
     "index.js"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Dev-CasperTheGhost/eslint-config.git"
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
   },
-  "keywords": [
-    "eslint-config",
-    "eslint-react"
-  ],
-  "author": {
-    "name": "Dev-CasperTheGhost",
-    "url": "https://caspertheghost.me"
-  },
-  "bugs": {
-    "url": "https://github.com/Dev-CasperTheGhost/eslint-config/issues"
-  },
-  "homepage": "https://github.com/Dev-CasperTheGhost/eslint-config#readme",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.8.1",
-    "@typescript-eslint/parser": "^5.8.1",
-    "eslint": "8.6.0",
-    "eslint-config-prettier": "^8.3.0",
+    "@typescript-eslint/eslint-plugin": "^5.14.0",
+    "@typescript-eslint/parser": "^5.14.0",
+    "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-json": "^3.1.0",
     "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-promise": "^6.0.0",
-    "prettier": "^2.5.1"
+    "eslint-plugin-promise": "^6.0.0"
   },
-  "peerDependencies": {
-    "eslint": ">=8",
-    "typescript": ">=4.5.2"
+  "devDependencies": {
+    "eslint": "^8.10.0"
   },
-  "peerDependenciesMeta": {
-    "typescript": {
-      "optional": true
-    }
+  "publishConfig": {
+    "access": "public"
   }
 }
