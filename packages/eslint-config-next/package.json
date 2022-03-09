@@ -1,35 +1,30 @@
 {
   "name": "@casper124578/eslint-config-next",
-  "version": "1.2.1",
-  "description": "My ESLint config for ESLint. Feel free to use :)",
-  "main": "index.js",
+  "version": "3.0.5-alpha.0",
   "license": "MIT",
-  "files": [
-    "index.js"
-  ],
+  "main": "index.js",
+  "author": {
+    "name": "Dev-CasperTheGhost",
+    "url": "https://www.caspertheghost.me"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Dev-CasperTheGhost/eslint-config.git"
   },
-  "keywords": [
-    "eslint-config",
-    "eslint-react"
+  "files": [
+    "index.js"
   ],
-  "author": {
-    "name": "Dev-CasperTheGhost",
-    "url": "https://caspertheghost.me"
+  "peerDependencies": {
+    "eslint": ">=7.4.0",
+    "next": ">=12.1.0"
   },
-  "bugs": {
-    "url": "https://github.com/Dev-CasperTheGhost/eslint-config/issues"
-  },
-  "homepage": "https://github.com/Dev-CasperTheGhost/eslint-config#readme",
   "dependencies": {
-    "eslint-config-next": "^12.0.7"
+    "eslint-config-next": "^12.1.0"
   },
   "devDependencies": {
-    "eslint": "^8.4.0"
+    "eslint": "^8.10.0"
   },
-  "peerDependencies": {
-    "eslint": ">=8"
+  "publishConfig": {
+    "access": "public"
   }
 }

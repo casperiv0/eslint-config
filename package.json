@@ -1,0 +1,22 @@
+{
+  "name": "eslint-config",
+  "version": "3.0.0",
+  "license": "MIT",
+  "workspaces": [
+    "./packages/**"
+  ],
+  "author": {
+    "name": "Dev-CasperTheGhost",
+    "url": "https://caspertheghost.me"
+  },
+  "private": true,
+  "scripts": {
+    "lint": "npx eslint --ext .js,.json,.vue,.md .",
+    "release": "lerna publish --dist-tag beta"
+  },
+  "devDependencies": {
+    "eslint": "^8.10.0",
+    "lerna": "^4.0.0",
+    "typescript": "^4.6.2"
+  }
+}

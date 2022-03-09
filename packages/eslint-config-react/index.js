@@ -36,6 +36,7 @@ module.exports = {
     "react/jsx-no-undef": ["error", { allowGlobals: true }],
     "react/no-render-return-value": "error",
     "react/no-unsafe": "error",
+    "react/hook-use-state": "error",
 
     "react/prop-types": "off",
     "react/display-name": "off",
