@@ -7,11 +7,16 @@
     "name": "Dev-CasperTheGhost",
     "url": "https://www.caspertheghost.me"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dev-CasperTheGhost/eslint-config.git"
+  },
   "files": [
     "index.js"
   ],
   "peerDependencies": {
-    "eslint": ">=7.4.0"
+    "eslint": ">=7.4.0",
+    "prettier": ">=2.5.0"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.14.0",

@@ -1,6 +1,6 @@
 {
   "name": "eslint-config",
-  "version": "3.0.0-beta.0",
+  "version": "3.0.0-beta.4",
   "license": "MIT",
   "workspaces": [
     "./packages/**"
@@ -12,7 +12,7 @@
   "private": true,
   "scripts": {
     "lint": "npx eslint --ext .js,.json,.vue,.md .",
-    "release": "lerna publish --conventional-commits --dist-tag beta"
+    "release": "lerna publish --dist-tag beta"
   },
   "devDependencies": {
     "eslint": "^8.10.0",
