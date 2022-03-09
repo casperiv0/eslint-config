@@ -18,7 +18,6 @@ module.exports = {
     "@next/next/next-script-for-ga": "error",
     "@next/next/next-script-for-ga": "error",
     "@next/next/no-head-element": "error",
-    "@next/next/no-script-component-in-head-component": "error",
     "@next/next/no-server-import-in-page": "error",
 
     "@next/next/no-img-element": "warn",

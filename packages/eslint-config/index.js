@@ -158,6 +158,7 @@ module.exports = {
         "unicorn/prefer-text-content": "error",
         "unicorn/prefer-type-error": "error",
         "unicorn/throw-new-error": "error",
+        "unicorn/prefer-node-protocol": ["error", { checkRequire: true }],
       },
     },
   ],
