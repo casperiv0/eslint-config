@@ -139,23 +139,12 @@ module.exports = {
         "@typescript-eslint/prefer-optional-chain": "error",
         "@typescript-eslint/no-unnecessary-type-arguments": "error",
         "@typescript-eslint/no-unnecessary-boolean-literal-compare": "error",
-        "@typescript-eslint/no-require-imports": "error",
-        "@typescript-eslint/no-unnecessary-condition": "error",
-        "@typescript-eslint/no-non-null-asserted-nullish-coalescing": "error",
         "@typescript-eslint/no-this-alias": "error",
         "@typescript-eslint/no-unused-vars": "error",
         "@typescript-eslint/switch-exhaustiveness-check": "error",
         "@typescript-eslint/array-type": "error",
         "@typescript-eslint/unified-signatures": "error",
         "@typescript-eslint/adjacent-overload-signatures": "error",
-        "@typescript-eslint/consistent-type-imports": [
-          "error",
-          { prefer: "type-imports", disallowTypeAnnotations: false },
-        ],
-        "@typescript-eslint/no-use-before-define": [
-          "error",
-          { functions: false, classes: false, variables: true },
-        ],
 
         // unicorn
         "unicorn/error-message": "error",
