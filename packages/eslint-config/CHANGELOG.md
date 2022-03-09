@@ -1,3 +1,16 @@
+# Change Log
+
+All notable changes to this project will be documented in this file.
+See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+# 3.0.0-beta.1 (2022-03-09)
+
+**Note:** Version bump only for package @casper124578/eslint-config
+
+
+
+
+
 # Changelog
 
 ## 3.0.0
