@@ -1,6 +1,6 @@
 "use strict";
 
-const defaultPlugins = ["json", "promise", "prettier"];
+const defaultPlugins = ["json", "promise", "unicorn", "prettier"];
 const defaultExtends = [
   "eslint:recommended",
   "plugin:promise/recommended",
@@ -90,6 +90,7 @@ const defaultRules = {
   yoda: "error",
   "no-unreachable-loop": "error",
   "no-useless-backreference": "error",
+  "promise/always-return": "off",
 };
 
 module.exports = {
@@ -118,13 +119,6 @@ module.exports = {
         "no-unused-vars": "off",
         "@typescript-eslint/ban-types": "off",
 
-        "@typescript-eslint/no-unused-vars": [
-          "error",
-          {
-            args: "none",
-          },
-        ],
-
         "@typescript-eslint/no-array-constructor": "error",
         "no-array-constructor": "off",
         "no-useless-constructor": "off",
@@ -134,7 +128,6 @@ module.exports = {
         "@typescript-eslint/no-namespace": "off",
         "@typescript-eslint/no-non-null-assertion": "off",
         "@typescript-eslint/no-var-requires": "off",
-        "@typescript-eslint/no-non-null-asserted-optional-chain": "off",
         "@typescript-eslint/no-extra-non-null-assertion": "error",
         "@typescript-eslint/no-floating-promises": "error",
         "@typescript-eslint/no-non-null-asserted-optional-chain": "error",
@@ -142,6 +135,33 @@ module.exports = {
         "@typescript-eslint/no-unnecessary-type-constraint": "error",
         "@typescript-eslint/no-var-requires": "error",
         "@typescript-eslint/prefer-as-const": "error",
+        "@typescript-eslint/prefer-ts-expect-error": "error",
+        "@typescript-eslint/prefer-string-starts-ends-with": "error",
+        "@typescript-eslint/prefer-optional-chain": "error",
+        "@typescript-eslint/no-unnecessary-type-arguments": "error",
+        "@typescript-eslint/no-unnecessary-boolean-literal-compare": "error",
+        "@typescript-eslint/no-require-imports": "error",
+        "@typescript-eslint/no-unnecessary-condition": "error",
+        "@typescript-eslint/no-non-null-asserted-nullish-coalescing": "error",
+        "@typescript-eslint/no-this-alias": "error",
+        "@typescript-eslint/no-unused-vars": "error",
+        "@typescript-eslint/switch-exhaustiveness-check": "error",
+        "@typescript-eslint/array-type": "error",
+        "@typescript-eslint/unified-signatures": "error",
+        "@typescript-eslint/adjacent-overload-signatures": "error",
+
+        // unicorn
+        "unicorn/error-message": "error",
+        "unicorn/escape-case": "error",
+        "unicorn/no-array-instanceof": "error",
+        "unicorn/no-new-buffer": "error",
+        "unicorn/number-literal-case": "error",
+        "unicorn/prefer-exponentiation-operator": "error",
+        "unicorn/prefer-includes": "error",
+        "unicorn/prefer-starts-ends-with": "error",
+        "unicorn/prefer-text-content": "error",
+        "unicorn/prefer-type-error": "error",
+        "unicorn/throw-new-error": "error",
       },
     },
   ],
