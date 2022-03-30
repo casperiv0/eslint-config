@@ -1,5 +1,9 @@
 # ChangeLog
 
+## 4.1.0
+
+- Upgrade all dependencies
+
 ## 4.0.0
 
 ## General
