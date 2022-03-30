@@ -37,10 +37,13 @@ module.exports = {
     "react/no-render-return-value": "error",
     "react/no-unsafe": "error",
     "react/hook-use-state": "error",
-
     "react/prop-types": "off",
     "react/display-name": "off",
     "react/react-in-jsx-scope": "off",
+    "react/jsx-fragments": ["error", "syntax"],
+    "react/jsx-no-useless-fragment": "error",
+    "react/jsx-no-target-blank": "error",
+    "react/jsx-pascal-case": "error",
 
     "jsx-a11y/aria-props": "warn",
     "jsx-a11y/aria-proptypes": "warn",
