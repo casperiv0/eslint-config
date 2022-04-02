@@ -15,7 +15,7 @@
     "index.js"
   ],
   "peerDependencies": {
-    "eslint": ">=7.4.0"
+    "eslint": ">=7"
   },
   "dependencies": {
     "eslint-plugin-jsx-a11y": "^6.5.1",
