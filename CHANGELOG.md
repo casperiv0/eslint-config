@@ -1,12 +1,23 @@
 # ChangeLog
 
+## 4.2.0
+
+### General
+
+- Add `unicorn/prefer-modern-math-apis`
+- Add `unicorn/no-useless-switch-case`
+
+### Next
+
+- Disable `@next/next/no-img-element`
+
 ## 4.1.0
 
 - Upgrade all dependencies
 
 ## 4.0.0
 
-## General
+### General
 
 - Add `block-scoped-var`
 - Add `grouped-accessor-pairs`
@@ -20,7 +31,7 @@
 - Add `no-self-compare`
 - Add `no-useless-rename`
 
-## TypeScript
+### TypeScript
 
 - Add `@typescript-eslint/consistent-indexed-object-style`
 - Add `@typescript-eslint/consistent-type-definitions`
@@ -33,7 +44,7 @@
 - Add `@typescript-eslint/default-param-last`
 - Add `@typescript-eslint/no-duplicate-imports`
 
-## React
+### React
 
 - Add `react/jsx-fragments`
 - Add `react/jsx-no-useless-fragment`

@@ -15,7 +15,7 @@
     "index.js"
   ],
   "peerDependencies": {
-    "eslint": ">=7.4.0",
+    "eslint": ">=7",
     "next": ">=12.1.0"
   },
   "dependencies": {

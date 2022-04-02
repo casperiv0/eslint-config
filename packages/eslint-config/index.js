@@ -118,6 +118,8 @@ const defaultRules = {
   "unicorn/prefer-type-error": "error",
   "unicorn/throw-new-error": "error",
   "unicorn/prefer-node-protocol": ["error", { checkRequire: true }],
+  "unicorn/prefer-modern-math-apis": "error",
+  "unicorn/no-useless-switch-case": "error",
 };
 
 module.exports = {
@@ -182,6 +184,7 @@ module.exports = {
         "@typescript-eslint/no-unnecessary-condition": "error",
         "@typescript-eslint/prefer-literal-enum-member": "error",
         "@typescript-eslint/default-param-last": "error",
+        "@typescript-eslint/no-redundant-type-constituents": "error",
 
         "no-duplicate-imports": "off",
         "@typescript-eslint/no-duplicate-imports": ["error"],

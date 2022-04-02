@@ -20,10 +20,9 @@ module.exports = {
     "@next/next/no-head-element": "error",
     "@next/next/no-server-import-in-page": "error",
 
-    "@next/next/no-img-element": "warn",
-
     // can be useful for a full page refresh
     "@next/next/no-html-link-for-pages": "off",
     "@next/next/link-passhref": "off",
+    "@next/next/no-img-element": "off",
   },
 };
