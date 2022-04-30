@@ -16,13 +16,13 @@
   ],
   "peerDependencies": {
     "eslint": ">=7",
-    "next": ">=12.1.0"
+    "next": ">=12"
   },
   "dependencies": {
-    "eslint-config-next": "^12.1.2"
+    "eslint-config-next": "^12.1.5"
   },
   "devDependencies": {
-    "eslint": "^8.10.0"
+    "eslint": "^8.14.0"
   },
   "publishConfig": {
     "access": "public"

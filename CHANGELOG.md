@@ -1,5 +1,9 @@
 # ChangeLog
 
+## 4.3.0
+
+- Bump dependencies
+
 ## 4.2.0
 
 ### General
