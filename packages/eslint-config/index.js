@@ -117,7 +117,7 @@ const defaultRules = {
   "unicorn/prefer-text-content": "error",
   "unicorn/prefer-type-error": "error",
   "unicorn/throw-new-error": "error",
-  "unicorn/prefer-node-protocol": ["error", { checkRequire: true }],
+  "unicorn/prefer-node-protocol": "error",
   "unicorn/prefer-modern-math-apis": "error",
   "unicorn/no-useless-switch-case": "error",
 };
