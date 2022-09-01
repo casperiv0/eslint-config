@@ -1,5 +1,10 @@
 # ChangeLog
 
+## 5.0.0
+
+- Bump dependencies
+- **BREAKING:** Require nodejs v14 support
+
 ## 4.4.0
 
 - Bump dependencies
