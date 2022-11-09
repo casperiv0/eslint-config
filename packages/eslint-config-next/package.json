@@ -15,14 +15,14 @@
     "index.js"
   ],
   "peerDependencies": {
-    "eslint": ">=7",
-    "next": ">=12"
+    "eslint": ">=8",
+    "next": ">=13"
   },
   "dependencies": {
-    "eslint-config-next": "^12.2.5"
+    "eslint-config-next": "^13.0.2"
   },
   "devDependencies": {
-    "eslint": ">=8"
+    "eslint": "8.27.0"
   },
   "publishConfig": {
     "access": "public"

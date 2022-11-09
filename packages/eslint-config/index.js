@@ -120,6 +120,8 @@ const defaultRules = {
   "unicorn/prefer-node-protocol": "error",
   "unicorn/prefer-modern-math-apis": "error",
   "unicorn/no-useless-switch-case": "error",
+  "unicorn/no-unnecessary-await": "error",
+  "unicorn/switch-case-braces": ["error", "always"],
 };
 
 module.exports = {
