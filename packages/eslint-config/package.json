@@ -1,0 +1,36 @@
+{
+  "name": "@casper124578/eslint-config",
+  "version": "5.0.1",
+  "license": "MIT",
+  "main": "index.js",
+  "author": {
+    "name": "Dev-CasperTheGhost",
+    "url": "https://www.caspertheghost.me"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dev-CasperTheGhost/eslint-config.git"
+  },
+  "files": [
+    "index.js"
+  ],
+  "peerDependencies": {
+    "eslint": ">=7",
+    "prettier": ">=2.7.1"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.36.1",
+    "@typescript-eslint/parser": "^5.36.1",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-json": "^3.1.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-promise": "^6.0.1",
+    "eslint-plugin-unicorn": "43.0.2"
+  },
+  "devDependencies": {
+    "eslint": ">=8"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
