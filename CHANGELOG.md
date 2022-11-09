@@ -1,9 +1,17 @@
 # ChangeLog
 
+## 6.0.0
+
+- Add `unicorn/no-unnecessary-await`
+- Add `unicorn/switch-case-braces`
+- Bump dependencies
+- **BREAKING CHANGE:** Require eslint v8
+- **BREAKING CHANGE:** Require next v13 for `@casper124578/eslint-config-next`
+
 ## 5.0.0
 
 - Bump dependencies
-- **BREAKING:** Require nodejs v14 support
+- **BREAKING CHANGE:** Require nodejs v14 support
 
 ## 4.4.0
 
