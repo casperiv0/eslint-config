@@ -1,6 +1,6 @@
 {
   "name": "eslint-config",
-  "version": "4.4.0",
+  "version": "6.0.0",
   "license": "MIT",
   "workspaces": [
     "./packages/**"
