@@ -4,6 +4,8 @@
 
 - Add `unicorn/no-unnecessary-await`
 - Add `unicorn/switch-case-braces`
+- Add `jsx-a11y/no-redundant-roles`
+- Add `react/hook-use-state`
 - Bump dependencies
 - **BREAKING CHANGE:** Require eslint v8
 - **BREAKING CHANGE:** Require next v13 for `@casper124578/eslint-config-next`
