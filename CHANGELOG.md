@@ -1,5 +1,10 @@
 # ChangeLog
 
+## 7.0.0
+
+- **Breaking:** Require `prettier` v3
+- **Possibly Breaking:** Update all dependencies
+
 ## 6.0.0
 
 - Add `unicorn/no-unnecessary-await` (`@casper124578/eslint-config`)
