@@ -3,6 +3,8 @@
 const defaultPlugins = ["json", "promise", "unicorn", "prettier"];
 const defaultExtends = [
   "eslint:recommended",
+  "plugin:@typescript-eslint/recommended-type-checked",
+  "plugin:@typescript-eslint/stylistic-type-checked",
   "plugin:promise/recommended",
   "plugin:json/recommended",
   "prettier",
@@ -189,7 +191,6 @@ module.exports = {
         "@typescript-eslint/no-redundant-type-constituents": "error",
 
         "no-duplicate-imports": "off",
-        "@typescript-eslint/no-duplicate-imports": ["error"],
       },
     },
   ],

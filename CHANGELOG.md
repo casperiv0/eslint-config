@@ -2,6 +2,8 @@
 
 ## 7.0.0
 
+- Remove deprecated `@typescript-eslint/no-duplicate-imports` rule
+- Upgrade to `@typescript-eslint` v6
 - **Breaking:** Require `prettier` v3
 - **Possibly Breaking:** Update all dependencies
 
