@@ -1,6 +1,6 @@
 {
   "name": "@casper124578/eslint-config-next",
-  "version": "7.0.0-alpha.2",
+  "version": "7.0.0",
   "license": "MIT",
   "main": "index.js",
   "author": {
