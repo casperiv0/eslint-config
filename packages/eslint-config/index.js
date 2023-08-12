@@ -3,8 +3,6 @@
 const defaultPlugins = ["json", "promise", "unicorn", "prettier"];
 const defaultExtends = [
   "eslint:recommended",
-  "plugin:@typescript-eslint/recommended-type-checked",
-  "plugin:@typescript-eslint/stylistic-type-checked",
   "plugin:promise/recommended",
   "plugin:json/recommended",
   "prettier",
