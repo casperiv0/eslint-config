@@ -1,9 +1,9 @@
-# [eslint-config](https://npm.im/@casper124578/eslint-config)
+# [eslint-config](https://npm.im/@casperiv/eslint-config)
 
 ## Install
 
 ```bash
-npm install -D @casper124578/eslint-config
+npm install -D @casperiv/eslint-config
 ```
 
 ## Usage
@@ -12,7 +12,7 @@ Use `extends` in your ESLint config
 
 ```json
 {
-  "extends": "@casper124578/eslint-config"
+  "extends": "@casperiv/eslint-config"
 }
 ```
 

@@ -1,9 +1,9 @@
-# [eslint-config-react](https://npm.im/@casper124578/eslint-config-react)
+# [eslint-config-react](https://npm.im/@casperiv/eslint-config-react)
 
 ## Install
 
 ```bash
-npm install -D @casper124578/eslint-config @casper124578/eslint-config-react
+npm install -D @casperiv/eslint-config @casperiv/eslint-config-react
 ```
 
 ## Usage
@@ -12,7 +12,7 @@ Use `extends` in your ESLint config
 
 ```json
 {
-  "extends": ["@casper124578/eslint-config", "@casper124578/eslint-config-react"]
+  "extends": ["@casperiv/eslint-config", "@casperiv/eslint-config-react"]
 }
 ```
 

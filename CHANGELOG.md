@@ -1,5 +1,9 @@
 # ChangeLog
 
+## 8.0.0
+
+- Move npm handle from `@casper124578` to `@casperiv`.
+
 ## 7.0.0
 
 - Remove deprecated `@typescript-eslint/no-duplicate-imports` rule
@@ -9,12 +13,12 @@
 
 ## 6.0.0
 
-- Add `unicorn/no-unnecessary-await` (`@casper124578/eslint-config`)
-- Add `unicorn/switch-case-braces` (`@casper124578/eslint-config`)
-- Add `jsx-a11y/no-redundant-roles` (`@casper124578/eslint-config-react`)
+- Add `unicorn/no-unnecessary-await` (`@casperiv/eslint-config`)
+- Add `unicorn/switch-case-braces` (`@casperiv/eslint-config`)
+- Add `jsx-a11y/no-redundant-roles` (`@casperiv/eslint-config-react`)
 - Bump dependencies
 - **BREAKING CHANGE:** Require eslint v8
-- **BREAKING CHANGE:** Require next v13 for `@casper124578/eslint-config-next`
+- **BREAKING CHANGE:** Require next v13 for `@casperiv/eslint-config-next`
 
 ## 5.0.0
 

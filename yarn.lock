@@ -74,9 +74,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@casper124578/eslint-config-next@workspace:packages/eslint-config-next":
+"@casperiv/eslint-config-next@workspace:packages/eslint-config-next":
   version: 0.0.0-use.local
-  resolution: "@casper124578/eslint-config-next@workspace:packages/eslint-config-next"
+  resolution: "@casperiv/eslint-config-next@workspace:packages/eslint-config-next"
   dependencies:
     eslint: 8.27.0
     eslint-config-next: ^13.4.9
@@ -86,9 +86,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@casper124578/eslint-config-react@workspace:packages/eslint-config-react":
+"@casperiv/eslint-config-react@workspace:packages/eslint-config-react":
   version: 0.0.0-use.local
-  resolution: "@casper124578/eslint-config-react@workspace:packages/eslint-config-react"
+  resolution: "@casperiv/eslint-config-react@workspace:packages/eslint-config-react"
   dependencies:
     eslint: 8.27.0
     eslint-plugin-jsx-a11y: ^6.7.1
@@ -99,9 +99,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@casper124578/eslint-config@workspace:packages/eslint-config":
+"@casperiv/eslint-config@workspace:packages/eslint-config":
   version: 0.0.0-use.local
-  resolution: "@casper124578/eslint-config@workspace:packages/eslint-config"
+  resolution: "@casperiv/eslint-config@workspace:packages/eslint-config"
   dependencies:
     "@typescript-eslint/eslint-plugin": ^6.3.0
     "@typescript-eslint/parser": ^6.3.0

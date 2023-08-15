@@ -1,4 +1,4 @@
-# @casper124578/eslint-config
+# @casperiv/eslint-config
 
 ## Install
 
@@ -11,19 +11,19 @@
 #### eslint-config
 
 ```bash
-npm install @casper124578/eslint-config
+npm install @casperiv/eslint-config
 ```
 
 #### eslint-config-react
 
 ```bash
-npm install @casper124578/eslint-config @casper124578/eslint-config-react
+npm install @casperiv/eslint-config @casperiv/eslint-config-react
 ```
 
 #### eslint-config-next
 
 ```bash
-npm install @casper124578/eslint-config @casper124578/eslint-config-react @casper124578/eslint-config-next
+npm install @casperiv/eslint-config @casperiv/eslint-config-react @casperiv/eslint-config-next
 ```
 
 ## Usage
@@ -32,7 +32,7 @@ Use `extends` in your ESLint config
 
 ```json
 {
-  "extends": ["@casper124578/eslint-config"]
+  "extends": ["@casperiv/eslint-config"]
 }
 ```
 
@@ -40,7 +40,7 @@ Use `extends` in your ESLint config
 
 ```json
 {
-  "extends": ["@casper124578/eslint-config", "@casper124578/eslint-config-react"]
+  "extends": ["@casperiv/eslint-config", "@casperiv/eslint-config-react"]
 }
 ```
 
@@ -48,7 +48,7 @@ Use `extends` in your ESLint config
 
 ```json
 {
-  "extends": ["@casper124578/eslint-config", "@casper124578/eslint-config-react", "@casper124578/eslint-config-next"]
+  "extends": ["@casperiv/eslint-config", "@casperiv/eslint-config-react", "@casperiv/eslint-config-next"]
 }
 ```
 
