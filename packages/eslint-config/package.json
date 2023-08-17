@@ -4,12 +4,12 @@
   "license": "MIT",
   "main": "index.js",
   "author": {
-    "name": "Dev-CasperTheGhost",
+    "name": "Casper Iversen",
     "url": "https://www.casperiv.dev"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Dev-CasperTheGhost/eslint-config.git"
+    "url": "git+https://github.com/casperiv0/eslint-config.git"
   },
   "files": [
     "index.js"

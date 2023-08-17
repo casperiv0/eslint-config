@@ -24,4 +24,4 @@ Use `extends` in your ESLint config
 
 ## License
 
-[Dev-CasperTheGhost MIT](../../LICENSE)
+[Casper Iversen MIT](../../LICENSE)

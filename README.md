@@ -54,8 +54,8 @@ Use `extends` in your ESLint config
 
 ## License
 
-[Dev-CasperTheGhost MIT](./LICENSE)
+[Casper Iversen MIT](./LICENSE)
 
-[config_url]: https://github.com/Dev-CasperTheGhost/eslint-config/tree/main/packages/eslint-config
-[react_url]: https://github.com/Dev-CasperTheGhost/eslint-config/tree/main/packages/eslint-config-react
-[nextjs_url]: https://github.com/Dev-CasperTheGhost/eslint-config/tree/main/packages/eslint-config-next
+[config_url]: https://github.com/casperiv0/eslint-config/tree/main/packages/eslint-config
+[react_url]: https://github.com/casperiv0/eslint-config/tree/main/packages/eslint-config-react
+[nextjs_url]: https://github.com/casperiv0/eslint-config/tree/main/packages/eslint-config-next
